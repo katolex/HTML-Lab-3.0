@@ -4,6 +4,31 @@ h1{
     color:#2D2A2B;
     margin-block: .25px;
 }
+h2, h3 {
+    font-size: 2em
+}
+ul li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left:0;
+    margin-right:2em;
+}
+ul li a {
+    background: white;
+    text-decoration: none;
+    padding: 0.5em;
+    display: block;
+    color: #2D2A2B;
+    
+}
+ul li a:hover {
+    background: lavender;
+    text-decoration:underline;
+}
+#biotitle {
+    color: white;
+}
 body {
     background-color: #3C55A5;
 }
@@ -20,11 +45,18 @@ body {
     border-width: 5px;
     margin-top: 50px;
 }
-table {
+#bio {
+    background-color: white;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -20px;
+}
+.indextable {
     table-layout: auto;
     width: 100%;
-    border-color:#2D2A2B;
-    border-width: 1px;
+    color:#3C55A5;
+    border: 1px #2D2A2B;
 }
 
 
@@ -50,7 +82,7 @@ main {
     width: 100px;
 }
 .profilepic {
-    width: 100px;
+    width: 200px;
     display: block;
     margin-left: auto;
     margin-right: auto;
