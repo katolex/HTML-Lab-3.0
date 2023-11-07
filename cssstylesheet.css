@@ -1,14 +1,14 @@
 h1{
     text-align: center;
     font-size: 8em;
-    color:blue;
+    color:#2D2A2B;
     margin-block: .25px;
 }
 body {
-    background-color: darkturquoise;
+    background-color: #3C55A5;
 }
 main {
-    background-color: #8B0000;
+    background-color: white;
 }
 .logoimage {
     height: 100px;
@@ -16,7 +16,19 @@ main {
     image-rendering: auto;
 }
 #artworkmain {
-    border-color: aquamarine;
-    border-style:dotted;
+    border-color: black;
+    border-style: solid;
     border-width: 5px;
+}
+.image2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+.image3 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
 }
