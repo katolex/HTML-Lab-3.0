@@ -15,4 +15,8 @@ main {
     width:auto;
     image-rendering: auto;
 }
-
+#artworkmain {
+    border-color: aquamarine;
+    border-style:dotted;
+    border-width: 5px;
+}
