@@ -4,6 +4,23 @@ h1{
     color:#2D2A2B;
     margin-block: .25px;
 }
+footer{
+    color:white;
+}
+#jump {
+    color:#2D2A2B;
+    margin: auto;
+    left: 0px;
+    right: 0px;
+    display: block;
+    font-size: 2em;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.5em;
+    margin-left:0;
+    margin-right:2em;
+    background: lavender;
+}
 h2, h3 {
     font-size: 2em
 }
@@ -16,9 +33,11 @@ ul li {
     font-size: 1.5em;
     margin-left:0;
     margin-right:2em;
+    margin: auto;
 }
 ul li a {
     background: white;
+    border-radius: 5%;
     text-decoration: none;
     padding: 0.5em;
     display: block;
@@ -29,12 +48,20 @@ ul li a:hover {
     background: lavender;
     text-decoration:underline;
 }
+#contact {
+    background: white;
+    border-radius:50%;
+    text-decoration: none;
+    display: block;
+    color: #2D2A2B;
+}
 #biotitle {
     color: white;
 }
 body {
     background-color: #3C55A5;
 }
+
 #sectionindex {
     background-color: white;
     border-color: black;
@@ -72,6 +99,7 @@ main {
     height: 100px;
     width:auto;
     image-rendering: auto;
+    border-radius: 5%;
 }
 #artworkmain {
     border-color: black;
