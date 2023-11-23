@@ -3,9 +3,11 @@ h1{
     font-size: 8em;
     color:#2D2A2B;
     margin-block: .25px;
+    font-family: 'Sora', sans-serif;
 }
 footer{
     color:white;
+    font-family: 'Sora', sans-serif;
 }
 #jump {
     color:#2D2A2B;
@@ -22,10 +24,21 @@ footer{
     background: lavender;
 }
 h2, h3 {
-    font-size: 2em
+    font-size: 2em;
+    font-family: 'Sora', sans-serif;
+}
+h4 { 
+    font-family: 'Sora', sans-serif;
+    text-decoration:double;
 }
 ul {
     display:flex;
+}
+table {
+    font-family: 'Sora', sans-serif;
+}
+li {
+    font-family: 'Sora', sans-serif;
 }
 ul li {
     list-style-type: none;
@@ -34,6 +47,7 @@ ul li {
     margin-left:0;
     margin-right:2em;
     margin: auto;
+    font-family: 'Sora', sans-serif;
 }
 ul li a {
     background: white;
@@ -87,9 +101,12 @@ body {
     width: 100%;
     color:#3C55A5;
     border: 1px #2D2A2B;
+    font-family: 'Sora', sans-serif;
 }
 
-
+p { 
+    font-family: 'Sora', sans-serif;
+}
 
 
 main {
@@ -133,4 +150,5 @@ main {
 figcaption {
     text-align: center;
     color: #2d2a2b;
+    font-family: 'Sora', sans-serif;
 }
