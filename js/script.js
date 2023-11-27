@@ -1,5 +1,5 @@
 console.log("Hello World");
-
-const d = new Date();
-document.getElementById("rights").innerHTML = d;
+var year = new Date().getFullYear();
+var date = '&copy; studio.of.kp {year}. All Rights Reserved.';
+document.getElementById("rights").innerHTML = year;
 
