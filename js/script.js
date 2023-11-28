@@ -9,6 +9,10 @@ const buttonalert = () => {
 }
 
 document.getElementById('btn-alert').onmouseover = () => {
-    document.getElementById('btn-alert').innerText = 'Yes, Click Me';
+     document.getElementById('btn-alert').innerText = 'Yes Click on Me';
+};
+
+document.getElementById('btn-alert').onmouseleave = () => {
+    document.getElementById('btn-alert').innerText = 'Click here!';
 };
 
