@@ -13,5 +13,5 @@ document.getElementById('btn-alert').onmouseover = () => {
     document.getElementById('btn-alert').innerText = 'Click Here!';
 };
 document.getElementById('btn-alert').onmouseleave = () => {
-    document.getElementById('btn-alert').innerText = "YES CLICK ON ME";
+    document.getElementById('btn-alert').innerText = 'YES CLICK ON ME';
 };
