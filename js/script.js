@@ -1,9 +1,14 @@
 console.log("Hello World");
 
 var year = new Date().getFullYear();
-var date = '&copy; studio.of.kp {year}. All Rights Reserved.';
+var date = '&copy; studio.of.kp {year}. All Rights Reserved.'; 
 document.getElementById("rights").innerHTML = year;
 
-function myFunction() {
-    alert("Hello World");
+const buttonalert = () => {
+    alert("Hello world!")
 }
+
+document.getElementById('btn-alert').onmouseover = () => {
+    document.getElementById('btn-alert').innerText = 'Yes, Click Me';
+};
+
