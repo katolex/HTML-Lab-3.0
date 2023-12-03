@@ -12,7 +12,12 @@ function clickme() {
 document.getElementById("btn-alert").innerHTML = "YES CLICK ON ME!";
 }
 function clickhere() {
-    document.getElementById("btn-alert").innerHTML = "Click Here !!";
+    document.getElementById("btn-alert").innerHTML = "Click here!";
     }
-    
 
+var btnclick=0;
+function clickplus()
+{
+    btnclick +=1;
+    document.getElementById("counter").innerHTML=""+btnclick;
+}   
