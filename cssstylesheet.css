@@ -214,17 +214,4 @@ figcaption {
     display: block;
     color: #2D2A2B;
     width: 300px;
-    content: "Click Here!"
-}
-#btn-alert:hover {
-    background: lavender;
-    
-}
-#btn-alert:hover span {
-    display:none;
-}
-#btn-alert:hover:before { 
-    content:"YES CLICK ON ME";
-    background: lavender;
-    text-decoration:underline;
 }

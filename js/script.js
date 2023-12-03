@@ -8,10 +8,11 @@ function buttonalert () {
     alert("Hello world!");
 }
 
+function clickme() {
+document.getElementById("btn-alert").innerHTML = "YES CLICK ON ME!";
+}
+function clickhere() {
+    document.getElementById("btn-alert").innerHTML = "Click Here !!";
+    }
+    
 
-document.getElementById('btn-alert').onmouseover = () => {
-    document.getElementById('btn-alert').innerText = 'Click Here!';
-};
-document.getElementById('btn-alert').onmouseleave = () => {
-    document.getElementById('btn-alert').innerText = 'YES CLICK ON ME';
-};
