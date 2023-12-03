@@ -15,9 +15,9 @@ function clickhere() {
     document.getElementById("btn-alert").innerHTML = "Click here!";
     }
 
-var btnclick=0;
-function clickplus()
-{
-    btnclick +=1;
-    document.getElementById("counter").innerHTML=""+btnclick;
-}   
+    var btnclick = 0;
+
+    function clickplus() {
+        btnclick += 1;
+        document.getElementById("counter").innerHTML = "" + btnclick;
+    }
