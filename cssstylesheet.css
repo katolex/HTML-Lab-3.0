@@ -215,3 +215,10 @@ figcaption {
     color: #2D2A2B;
     width: 300px;
 }
+
+.even {
+    color: green;
+}
+.odd {
+    color: red;
+}
