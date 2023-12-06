@@ -10,6 +10,7 @@ const buttonalert = () => {
     alert("Hello world!");
 }
 
+// The hovering button
 const clickme = () => {
 document.getElementById("btn-alert").innerHTML = "YES CLICK ON ME!";
 }
