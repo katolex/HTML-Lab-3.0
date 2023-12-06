@@ -205,3 +205,20 @@ figcaption {
     background: lavender;
     text-decoration:underline;
 }
+
+#btn-alert {
+    background: red;
+    border-radius: 5%;
+    text-decoration: none;
+    padding: 0.5em;
+    display: block;
+    color: #2D2A2B;
+    width: 300px;
+}
+
+.even {
+    color: green;
+}
+.odd {
+    color: red;
+}

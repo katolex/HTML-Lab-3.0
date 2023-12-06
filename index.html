@@ -3,14 +3,16 @@
     <head> 
     <link href="cssstylesheet.css" rel="stylesheet">
     <meta charset="UTF-8">
-    <meta name="viewport" content="wdith=device-width,inital-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="Personal Website">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap" rel="stylesheet">
     <!-- Brought in free fonts from online -->
+    <script defer src="./js/script.js"></script>
     <title>Website for My Art</title>
-   <body>  
+   <body> 
+        <!-- <script async src=“js/script.js”></script>  -->
         <ul>
             <li><a href="aboutme.html">About me</a></li> <br>
             <li><a href="artwork.html"> My artwork</a></li> 
@@ -38,10 +40,6 @@
         
     <!-- Main body holds images and contact information for introduction -->
 
-        <!-- <style>
-            img{width: 100px; border-radius: 100px; float: left; margin-right: 10px;}
-        </style> 
-            Removed css because of the many errors it caused-->
     <section id="sectionindex"> 
             <figure>
                 <img src="./images/profilepic.JPG" alt="Potrait of Kathleen Perro." class="profilepic">
@@ -51,7 +49,12 @@
             <h3>
                 Art Experience
             </h3>
-
+            <!-- Button links to js page -->
+            <button id="btn-alert" onmouseover="clickme()" onmouseleave="clickhere()" onclick="buttonalert()">Click here!</button>
+            <button id="btn-counter">incrementing button</button>
+            <p>Number = <span id="counter">0</span></p>
+            <ol id="numbers"></ol>
+            <br>
             <table> 
                 <tr>
                     <td>2016</td>
@@ -88,10 +91,8 @@
     </p> 
     <!-- Lorem ipsum to cover text that would otherwise be there -->
     </article>
-    <footer > 
-        <p> All Rights Reserved</p>
+    <footer> 
+        <p> &copy;studio.of.kp. <span id="rights"></span> All Rights Reserved.</p>
         <a id="footerl" href="#">Jump to Top</a>
     </footer>
-    
-
 </html>
