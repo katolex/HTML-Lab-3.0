@@ -28,8 +28,8 @@ table {
     filter: drop-shadow(2px 2px 2px black);
 }
 ol {
-    border: 1px solid;
-    margin-right: 600px;
+    border: black 1px solid;
+    margin-right: 50%;
     filter: drop-shadow(2px 2px 2px black);
 }
 /* Keeping these simple however still cool */
@@ -221,4 +221,8 @@ figcaption {
 }
 .odd {
     color: red;
+}
+
+#numbers :nth-child(even) {
+    background-color: lightgrey;
 }
